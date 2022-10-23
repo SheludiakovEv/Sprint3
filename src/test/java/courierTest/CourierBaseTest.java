@@ -1,7 +1,6 @@
 package courierTest;
 
 import client.Courier;
-import org.junit.After;
 import org.junit.Before;
 
 public class CourierBaseTest {
