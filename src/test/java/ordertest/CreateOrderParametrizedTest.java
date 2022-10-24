@@ -1,4 +1,4 @@
-package orderTest;
+package ordertest;
 
 import client.Courier;
 import generator.CreateOrderGenerator;

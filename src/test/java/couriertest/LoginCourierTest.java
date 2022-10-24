@@ -1,11 +1,9 @@
-package courierTest;
+package couriertest;
 
 import client.Courier;
 import generator.CreateCourierGenerator;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
-import io.restassured.internal.RequestSpecificationImpl;
-import io.restassured.matcher.ResponseAwareMatcher;
 import io.restassured.response.Response;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;

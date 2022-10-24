@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d5563c7-825f-4c84-8c24-db9409ebece4" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/Courier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/RestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generator/CreateCourierGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generator/CreateOrderGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generator/LoginCourierGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/CreateCourier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/CreateOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/LoginCourier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/courierTest/CourierBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/courierTest/CreateCourierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/courierTest/LoginCourierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/orderTest/CreateOrderParametrizedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/orderTest/GetListOrdersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3d5563c7-825f-4c84-8c24-db9409ebece4" name="Changes" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/courierTest/CourierBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/couriertest/CourierBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/courierTest/CreateCourierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/couriertest/CreateCourierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/courierTest/LoginCourierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/couriertest/LoginCourierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orderTest/CreateOrderParametrizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ordertest/CreateOrderParametrizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orderTest/GetListOrdersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ordertest/GetListOrdersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +37,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
@@ -68,12 +55,12 @@
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="courierTest.*" />
+          <option name="PATTERN" value="couriertest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="courierTest" />
-      <option name="MAIN_CLASS_NAME" value="courierTest.CreateCourierTest" />
+      <option name="MAIN_CLASS_NAME" value="couriertest.CreateCourierTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,12 +70,12 @@
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="orderTest.*" />
+          <option name="PATTERN" value="ordertest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="orderTest" />
-      <option name="MAIN_CLASS_NAME" value="orderTest.CreateOrderParametrizedTest" />
+      <option name="MAIN_CLASS_NAME" value="ordertest.CreateOrderParametrizedTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,12 +85,12 @@
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="orderTest.*" />
+          <option name="PATTERN" value="ordertest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="orderTest" />
-      <option name="MAIN_CLASS_NAME" value="orderTest.GetListOrdersTest" />
+      <option name="MAIN_CLASS_NAME" value="ordertest.GetListOrdersTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,12 +100,12 @@
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="orderTest.*" />
+          <option name="PATTERN" value="ordertest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="orderTest" />
-      <option name="MAIN_CLASS_NAME" value="orderTest.GetListOrdersTest" />
+      <option name="MAIN_CLASS_NAME" value="ordertest.GetListOrdersTest" />
       <option name="METHOD_NAME" value="GetListOrders" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -129,12 +116,12 @@
       <module name="Sprint3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="courierTest.*" />
+          <option name="PATTERN" value="couriertest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="courierTest" />
-      <option name="MAIN_CLASS_NAME" value="courierTest.LoginCourierTest" />
+      <option name="MAIN_CLASS_NAME" value="couriertest.LoginCourierTest" />
       <option name="METHOD_NAME" value="autorizathionWrongPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -160,6 +147,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666197991515</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1666557872605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666557872605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,15 +169,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First commit" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/courierTest/CreateCourierTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/couriertest/CreateCourierTest.java</url>
           <line>67</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>

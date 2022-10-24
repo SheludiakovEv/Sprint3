@@ -1,4 +1,4 @@
-package orderTest;
+package ordertest;
 
 import client.Orders;
 import io.qameta.allure.Description;
