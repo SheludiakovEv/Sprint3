@@ -1,4 +1,4 @@
-package couriertest;
+package courier;
 
 import client.Courier;
 import org.junit.Before;
