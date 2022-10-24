@@ -2,7 +2,6 @@ package client;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
 import pojo.CreateCourier;
 import pojo.CreateOrders;
 import pojo.LoginCourier;

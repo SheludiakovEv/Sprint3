@@ -1,10 +1,7 @@
 package pojo;
 
 public class CreateCourier {
-
     private static final String COURIER = "courier";
-
-
     private String login;
     private String password;
     private String firstName;
